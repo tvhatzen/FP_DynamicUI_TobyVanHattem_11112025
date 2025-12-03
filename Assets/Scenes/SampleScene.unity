@@ -5689,6 +5689,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5767,7 +5768,8 @@ Transform:
   m_LocalPosition: {x: 0.35, y: 0.6, z: -4.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1978495658}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -36.36, y: 3.34, z: 0}
 --- !u!114 &330585547
@@ -5814,6 +5816,28 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!95 &330585548
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a51a8cfbe080334c8bd377f7993ca97, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &382439331
 GameObject:
   m_ObjectHideFlags: 0
@@ -10500,12 +10524,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978495654}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.024620801, y: 0.4462022, z: -0.89441764, w: -0.017732216}
-  m_LocalPosition: {x: 1.35, y: 11.84, z: 11.39}
-  m_LocalScale: {x: 6.34, y: 1.3950009, z: 3.66}
+  m_LocalRotation: {x: -0.000090053305, y: 0.7034058, z: -0.7107714, w: -0.004939534}
+  m_LocalPosition: {x: 0.095837295, y: -0.15063286, z: 19.163658}
+  m_LocalScale: {x: 6.3399982, y: 1.3950008, z: 3.6599998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 330585546}
   m_LocalEulerAnglesHint: {x: 53.04, y: 2.69, z: -180.929}
 --- !u!1001 &2046533245
 PrefabInstance:
@@ -10778,4 +10802,3 @@ SceneRoots:
   - {fileID: 1082647922}
   - {fileID: 1806728209}
   - {fileID: 315780294}
-  - {fileID: 1978495658}
